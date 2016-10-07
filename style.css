@@ -1,0 +1,119 @@
+body{
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color:#FFF;
+}
+.title{
+ 	
+ 	width:100%;
+	height: 100px;
+	color:white;
+	font-family:Sans-Serif;
+	position:relative;
+	background-color: #277dd3;
+	text-align: center;
+}
+.topStrip
+{
+    position: relative;
+    width:100%;
+    top:-30px;
+    height: 100px;
+    background-color: #b4bdc5; 
+}
+.Messagetable
+{
+	width:75%;
+	margin: 0 auto;
+	border-spacing: 0;
+    border-collapse: collapse;
+	border:10px solid #b4bdc5;
+	color: white;
+	font-family:Sans-Serif;
+}
+.header
+{
+	font-weight: bold;
+	padding: 0px;
+	background-color:  #67A5E2;
+	text-align: center;	
+}
+.row
+{
+	padding-right: 2px;
+	background-color:  #67A5E2;
+}
+.highlighted{
+	background-color: #86B7E8;
+}
+.submit{
+	position:absolute;
+	background: none;
+	opacity:0.0;
+	width:73%;
+}
+.subject{
+	float: left;
+	margin: 5px;
+	border:4px solid #86B7E8;
+	position: relative;
+	width: 48%
+}
+.sender{
+	left:17px;
+	float: right;
+	margin: 5px;
+	border:4px solid #86B7E8;
+	position: relative;
+	width: 48%
+}
+.message{
+	height:50%;
+	margin: 5px;
+	border:4px solid #86B7E8;
+	position: relative;
+	width: 98%
+}
+.container{
+	font-family:Sans-Serif;
+	color: white;
+	background-color:#67A5E2; 
+	position: relative;
+	width:75%;
+	margin: 0 auto;
+	border:7px solid #b4bdc5;
+}
+.top
+{
+	width: 98%;
+	display: inline-block;
+}
+.right
+{
+	float:right;
+}
+.backBtn
+{
+
+}
+.delete
+{
+
+}
+.buttons
+{
+	display: block;
+}
+.column
+{
+	width:49%;
+}
+.formContainer
+{
+	display: block;
+	position:relative;
+	width:200px;
+	margin:0 auto;
+}
